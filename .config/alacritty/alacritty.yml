@@ -1,0 +1,63 @@
+window:
+  dimensions:
+    columns: 80
+    lines: 24
+  padding:
+    x: 3
+    y: 3
+  decorations: none
+
+colors:
+  primary:
+    # hard contrast: background = '0xf9f5d7'
+    background: '0xfbf1c7'
+    # soft contrast: background = '0xf2e5bc'
+    foreground: '0x3c3836'
+  normal:
+    black:   '0xfbf1c7'
+    red:     '0xcc241d'
+    green:   '0x98971a'
+    yellow:  '0xd79921'
+    blue:    '0x458588'
+    magenta: '0xb16286'
+    cyan:    '0x689d6a'
+    white:   '0x7c6f64'
+  bright:
+    black:   '0x928374'
+    red:     '0x9d0006'
+    green:   '0x79740e'
+    yellow:  '0xb57614'
+    blue:    '0x076678'
+    magenta: '0x8f3f71'
+    cyan:    '0x427b58'
+    white:   '0x3c3836'
+
+font:
+  normal:
+    family: Fira Code Retina
+    style: Retina
+  bold:
+    family: Fira Code SemiBold
+    style: SemiBold
+  italic:
+    family: DejaVuSansMono Nerd Font
+    style: Oblique
+  bold_italic:
+    family: DejaVuSansMono Nerd Font
+    style: Bold Oblique
+  size: 9
+
+draw_bold_text_with_bright_colors: true
+
+background_opacity: 0.95
+
+
+scrolling:
+  history: 10000
+  multiplier: 7
+
+key_bindings:
+  - { key: Return,    mods: Control|Shift, action: SpawnNewInstance }
+  - { key: Plus,      mods: Control,       action: IncreaseFontSize }
+  - { key: Minus,     mods: Control,       action: DecreaseFontSize }
+
