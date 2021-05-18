@@ -57,8 +57,9 @@ bindkey -v '^?' backward-delete-char
 bindkey -a '^[[3~' delete-char
 
 ## Alias Section
-# Git specific aliases
+# Git aliases for dotfiles
 alias gitcon='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
+alias gitc='gitcon commit -S -m'
 
 # Commonly used flags, shortcuts
 alias ls='exa -a'
