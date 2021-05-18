@@ -1,0 +1,79 @@
+scan_timeout = 10
+
+[character]
+success_symbol = "[❯](bold purple)[❯](bold yellow)[❯](bold green)"
+error_symbol = "[✗](bold red)[✗](bold red)[✗](bold red) "
+vicmd_symbol = "[❮](bold green)[❮](bold yellow)[❮](bold purple)"
+
+[aws]
+disabled = true
+
+[battery]
+disabled = true
+
+[conda]
+ignore_base = false
+
+[crystal]
+disabled = true
+
+[dart]
+disabled = true
+
+[directory]
+truncation_length = 9
+truncation_symbol = "…/"
+
+[docker_context]
+disabled = true
+
+[dotnet]
+disabled = true
+
+[elixir]
+disabled = true
+
+[elm]
+disabled = true
+
+[erlang]
+disabled = true
+
+[gcloud]
+disabled = true
+
+[helm]
+disabled = true
+
+[julia]
+disabled = true
+
+[nim]
+disabled = true
+
+[nix_shell]
+disabled = true
+
+[ocaml]
+disabled = true
+
+[openstack]
+disabled = true
+
+[purescript]
+disabled = true
+
+[status]
+disabled = false
+
+[swift]
+disabled = true
+
+[terraform]
+disabled = true
+
+[vagrant]
+disabled = true
+
+[zig]
+disabled = true
