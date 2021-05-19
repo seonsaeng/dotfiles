@@ -58,8 +58,7 @@ bindkey -a '^[[3~' delete-char
 
 ## Alias Section
 # Git aliases for dotfiles
-alias gitcon='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
-alias gitc='gitcon commit -S -m'
+alias gitdot='git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
 
 # Commonly used flags, shortcuts
 alias ls='exa -a'
