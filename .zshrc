@@ -31,7 +31,6 @@ zstyle ':completion:*' use-cache on
 zstyle ':completion:*' cache-path ~/.zsh/cache
 
 autoload -Uz compinit zcalc
-_comp_options+=(globdots)
 autoload -Uz colors && colors
 
 ## Plugins Section
@@ -145,5 +144,6 @@ for dump in ~/.zcompdump(N.mh+24); do
 done
 
 compinit -C
+_comp_options+=(globdots)
 
 eval "$(starship init zsh)"
